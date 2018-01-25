@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col s12">
+        <ul class="collection with-header">
+            <li class="collection-header">
+                Aria2:
+            </li>
+            <li class="collection-item">Version: {{ aria_info.version }}</li>
+            <li class="collection-header">
+                Enabled Features:
+            </li>
+            <li class="collection-item" ng-repeat="feature in aria_info.enabledFeatures">
+                {{feature}}
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="drawa">
+
+<head>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="%% url_for('static', filename='css/materialize.min.css') %%">
+  <link rel="stylesheet" href="%% url_for('static', filename='css/app.css') %%">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body ng-controller="AriaController">
+  <div class="navbar-fixed">
+    <nav class="light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img class="brand-img" src="images/drawa.png"></a>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <div class="container">
+      <div ng-view></div>
+    </div>
+  </main>
+
+  <div class="loader-wrapper" ng-show="showLoader">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/app-factory.js"></script>
+  <script src="js/app-controllers.js"></script>
+
+</body>
+
+</html>

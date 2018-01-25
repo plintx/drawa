@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col s12">
+        <form ng-submit="addUri()">
+            <div input-field class="">
+                <input id="uri" type="text" name="uri" ng-model="addUri.uri">
+                <label for="uri">URL</label>
+            </div>  
+
+
+    <button class="btn btn-primary right" ng-class="{{ !addUri.uri ? 'disabled' : '' }}" type="submit">Add</button>
+    </form>
+</div>
+
+</div>
+
+<!-- Help -->
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light red modal-trigger" data-target='modal1' modal>
+        <i class="material-icons">help</i>
+    </a>
+</div>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Available prefixes</h4>
+        <p>
+
+            <ul class="collection">
+                <li class="collection-item" ng-repeat="value in available_uris">{{value}}</li>
+            </ul>
+
+
+        </p>
+    </div>
+</div>
+<!-- /Help -->

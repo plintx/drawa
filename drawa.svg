@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="1122.5197"
+   viewBox="0 0 52.916665 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="drawa.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="84.160013"
+     inkscape:cy="799.59641"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,2.3038167e-5)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke-width:0.26458332"
+       id="rect3754"
+       width="48.475445"
+       height="24.379465"
+       x="27.214289"
+       y="117.27232"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/pik/PycharmProjects/drawa/drawa/app/www/static/images/drawa.png" />
+    <path
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       d="M 10.519665,72.729191 V 83.02882 H 20.819812 V 72.729191 Z m 3.045294,3.26647 h 3.147094 c 1.278131,0 2.225532,0.28594 2.842205,0.85783 0.616672,0.56844 0.925007,1.42454 0.925007,2.56832 0,1.15755 -0.298001,2.03432 -0.894001,2.63032 -0.592558,0.59601 -1.479669,0.894009 -2.661338,0.894009 l -2.470131,-0.0207 h -0.888836 v -0.273889 l 0.888836,-0.13952 v -6.10816 l -0.888836,-0.13436 z m 1.886191,0.46508 v 5.97897 c 0.413411,0.0276 0.904337,0.0413 1.472776,0.0413 0.847495,0 1.471057,-0.24977 1.870686,-0.74931 0.403077,-0.49954 0.604616,-1.27296 0.604616,-2.32027 0,-0.96807 -0.261827,-1.70188 -0.785482,-2.20142 -0.520208,-0.49954 -1.264349,-0.74931 -2.232422,-0.74931 z m 8.810831,1.47795 c -0.206706,0 -0.487482,0.0792 -0.842328,0.23771 -0.351398,0.15848 -0.630452,0.32384 -0.837157,0.4961 l -0.04651,-0.60462 h -1.415933 v 0.23255 l 0.61495,0.12919 v 4.13411 l -0.61495,0.12919 v 0.232549 h 2.304768 v -0.232549 l -0.831991,-0.12919 v -3.62768 c 0.172257,-0.0758 0.375516,-0.13608 0.609783,-0.18087 0.237712,-0.0482 0.442695,-0.0724 0.61495,-0.0724 l 0.299722,0.56844 h 0.222211 v -1.31258 z m 2.58382,0.0207 c -0.423746,0 -0.914672,0.0603 -1.472777,0.18087 v 1.05937 h 0.289388 l 0.1757,-0.60462 c 0.285943,-0.16192 0.601167,-0.24288 0.945679,-0.24288 0.254936,0 0.442693,0.0792 0.563271,0.23772 0.124024,0.15847 0.186037,0.40479 0.186037,0.73897 v 0.75964 l -0.728639,0.0207 c -0.523653,0.0103 -0.923285,0.0724 -1.198893,0.18604 -0.275606,0.11024 -0.477145,0.27216 -0.604613,0.48576 -0.124023,0.21015 -0.186036,0.47714 -0.186036,0.80098 0,0.96463 0.415133,1.446939 1.245401,1.446939 0.609783,0 1.111044,-0.196369 1.503786,-0.589109 l 0.09818,0.485759 h 1.333252 v -0.232549 l -0.604613,-0.12919 v -3.28145 c 0,-0.44786 -0.125746,-0.78031 -0.377238,-0.99736 -0.248047,-0.21704 -0.637344,-0.32556 -1.167889,-0.32556 z m 12.340333,0 c -0.423746,0 -0.914672,0.0603 -1.472779,0.18087 v 1.05937 h 0.289388 l 0.175699,-0.60462 c 0.285943,-0.16192 0.601171,-0.24288 0.945679,-0.24288 0.254937,0 0.442696,0.0792 0.563274,0.23772 0.124024,0.15847 0.186034,0.40479 0.186034,0.73897 v 0.75964 l -0.728636,0.0207 c -0.523655,0.0103 -0.923287,0.0724 -1.198893,0.18604 -0.275609,0.11024 -0.477147,0.27216 -0.604615,0.48576 -0.124024,0.21015 -0.186034,0.47714 -0.186034,0.80098 0,0.96463 0.415134,1.446939 1.245401,1.446939 0.60978,0 1.111044,-0.196369 1.503784,-0.589109 l 0.09819,0.485759 h 1.333251 v -0.232549 l -0.604615,-0.12919 v -3.28145 c 0,-0.44786 -0.125746,-0.78031 -0.377238,-0.99736 -0.248047,-0.21704 -0.637342,-0.32556 -1.167887,-0.32556 z m -10.040731,0.10852 v 0.23255 l 0.573609,0.12919 1.679482,4.599199 h 0.382408 l 1.183389,-3.203939 1.198893,3.203939 h 0.403077 l 1.627806,-4.619869 0.537435,-0.10852 v -0.23255 h -1.850014 v 0.23255 l 0.795816,0.12919 -1.100709,3.31246 -1.167886,-3.18844 h -0.434081 l -1.173057,3.16776 -1.152385,-3.28145 0.806154,-0.13952 v -0.23255 z m -1.612304,2.38229 v 1.72599 c -0.172255,0.0827 -0.344509,0.15158 -0.516766,0.2067 -0.16881,0.0517 -0.370348,0.0775 -0.604613,0.0775 -0.492649,0 -0.738973,-0.30317 -0.738973,-0.90951 0,-0.37896 0.08096,-0.6494 0.24288,-0.81132 0.165364,-0.16192 0.478866,-0.25149 0.940511,-0.26871 z m 12.34033,0 v 1.72599 c -0.172254,0.0827 -0.344509,0.15158 -0.516763,0.2067 -0.168809,0.0517 -0.370348,0.0775 -0.604615,0.0775 -0.492649,0 -0.738973,-0.30317 -0.738973,-0.90951 0,-0.37896 0.08096,-0.6494 0.242879,-0.81132 0.165365,-0.16192 0.47887,-0.25149 0.940512,-0.26871 z"
+       id="text3701"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/pik/PycharmProjects/drawa/drawa/app/www/static/images/drawa.png"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text3707"
+       y="157.89592"
+       x="76.351189"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif';stroke-width:0.26458332"
+         y="157.89592"
+         x="76.351189"
+         id="tspan3705"
+         sodipodi:role="line">Drawa</tspan></text>
+    <rect
+       style="stroke-width:0.26458332"
+       y="147.69942"
+       x="73.610863"
+       height="10.29985"
+       width="10.29985"
+       id="rect3709" />
+  </g>
+</svg>

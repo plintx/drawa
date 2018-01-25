@@ -1,0 +1,46 @@
+<div ng-controller="QueueController">
+<table class="highlight">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Progress</th>
+      <th>Status</th>
+      <th>Download/Upload</th>
+      <th> </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr ng-repeat="item in queue | orderBy: 'item.gid' track by item.gid" ng-show="getDownloadName(item).length > 0">
+      <td>{{ getDownloadName(item) }}</td>
+      <td>
+        <div class="progress">
+          <div class="determinate" style="width: {{ (item.completedLength / item.totalLength)*100 }}%"></div>
+        </div>
+      </td>
+      <td>{{ item.status | uppercase }}</td>
+      <td>{{ formatBytes(item.downloadSpeed) }} 
+        /
+        {{ formatBytes(item.uploadSpeed) }} </td>
+      <td>
+        <div class="btn-wrapper right">
+            <a class='dropdown-button' href='javascript:void(0);' data-activates='{{"menugid_" + item.gid}}' dropdown data-hover="true">
+                <span class="material-icons right">more_vert</span>
+            </a>
+            <!-- Dropdown Structure -->
+            <ul id='{{"menugid_" + item.gid}}' class='dropdown-content right' style="right:0">
+                <li><a ng-href="#!details/{{item.gid}}">Details</a></li>
+                <li class="divider"></li>
+                <li ng-show="item.status == 'active'"><a class="nohref" ng-click="pauseGid(item.gid)">Pause</a></li>
+                <li ng-show="item.status == 'paused'"><a class="nohref" ng-click="unpauseGid(item.gid)">Unpause</a></li>
+                <li ng-show="item.status == 'paused'"><a class="nohref" ng-click="removeGid(item.gid)">Remove</a></li>
+                <li ng-show="item.status == 'complete' || item.status=='error'"><a class="nohref" ng-click="purgeResultsGid(item.gid)">Remove</a></li>
+            </ul>
+        </div>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+<div ng-include="'pages/actions.html'"></div>

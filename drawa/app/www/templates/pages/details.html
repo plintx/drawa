@@ -1,0 +1,25 @@
+<div ng-controller="QueueController">
+    <div ng-controller="DetailsController">
+        <div class="row" ng-show="item_data">
+            <div class="col s12">
+                <ul class="collection with-header">
+                    <li class="collection-header">General:</li>
+                    <li class="collection-item">TItle: {{ getDownloadName(item_data) }}</li>
+                    <li class="collection-item">Status: {{ item_data.status }}</li>
+                    <li class="collection-item">Connections: {{ item_data.connections }}</li>
+                    <li class="collection-item">Download speed: {{ formatBytes(item_data.downloadSpeed) }}</li>
+                    <li class="collection-item">Upload speed: {{ formatBytes(item_data.uploadSpeed) }}</li>
+                    <li class="collection-item">Directory: {{ item_data.dir }}</li>
+                    <li class="collection-header">Files:</li>
+                    <li class="collection-item" ng-repeat="file in item_data.files">
+                        Path: {{ getFileName(file.path, true) }}
+                        <small>{{ (file.completedLength / file.length)*100 | number: 1}}%</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>

@@ -1,0 +1,10 @@
+[Unit]
+Description=Drawa Download Service
+After=network.target
+
+[Service]
+User=drawa
+ExecStart=/usr/bin/drawa --config /etc/drawa/drawa.conf
+
+[Install]
+WantedBy=multi-user.target

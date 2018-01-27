@@ -78,7 +78,7 @@ myApp.controller('AriaController', ['$scope', '$http', '$location', 'queueFactor
         }
         if (item.hasOwnProperty('files')) {
             try {
-                return $scope.getFileName(item.files[0].path);
+                return $scope.getFileName(item.files[0].path, true);
             } catch (err) {
                 console.log("Name not found, waiting...")
             }

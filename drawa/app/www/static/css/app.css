@@ -24,7 +24,29 @@ nav .nav-wrapper {
   margin: 0 auto;
   display: block;
 }
-
+.queue-item{
+  margin-bottom: 1em;
+  padding: 1em;
+  border: 1px solid #f3f3f2;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.info-badge{
+  min-width: 3rem;
+  padding: 2px 6px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 22px;
+  height: 22px;
+  color: #757575;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #26a69a;
+  border-radius: 2px;
+}
 .loader-wrapper{
   width: 100%;
   height: 100%;

@@ -2,9 +2,9 @@ include CHANGES.rst
 include LICENSE
 include MANIFEST.in
 include README.rst
-include drawa/app/default.conf
-include drawa/app/aria2.conf
-include drawa/app/aria2service.conf
+include drawa/default.conf
+include drawa/aria2.conf
+include drawa/app/default2service.conf
 
 recursive-include systemd/ *
 

@@ -1,6 +1,6 @@
 # Drawa
 
-Drawa is a Download Manager & a GUI for aria2 with built-in Chomikuj.pl support. It's written in Python 3.6 and can be extended by plugins.
+Drawa is a Download Manager & GUI for aria2 with built-in Chomikuj.pl support. It's written in Python 3.6 and can be extended by plugins.
 
 
 # Installing
